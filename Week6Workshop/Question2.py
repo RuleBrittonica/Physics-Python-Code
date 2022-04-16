@@ -22,13 +22,13 @@ ball = sphere(pos = vector(-10, 0.625, 0),
                  vel = vector(V*cos(theta), V*sin(theta), 0),
                  color = color.orange)
 
-while ball.pos.y > 0.625:
+while ball.pos.y > r:
     t = t + dt 
     vrel = ball.vel - vwind
     dF1 = -0.5 * C * A * p * ((mag(ball.vel) ** 2) * norm(ball.vel))
     dF2 = -0.5 * C * A * p * ((mag(vrel) ** 2) * norm(vrel))
     ball.pos = ball.pos + ball.vel * dt
-    ball.vel = ball.vel + g * dt + dF1 * dt + dF2 * dt
+    ball.vel = ball.vel + (g + dF1 + dF2) * dt 
     rate (100)
     
     
