@@ -1,3 +1,5 @@
+Python week 7 extension code 
+
 from vpython import *
 # import matplotlib.pyplot as plt
 # import math
@@ -86,6 +88,7 @@ while T <= 12:
     spring.axis = (weight.pos - pivot)
     t = 0 # resets t to start the new t loop
     T = T + dT # iterates the T loop
+
 
 
 

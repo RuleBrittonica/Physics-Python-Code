@@ -1,0 +1,10 @@
+Python week 7 extension brief comments on the graph
+
+The graph has three large peaks, each with a maximum displacement reaching 
+around 4.4 - 4.6. Apart from that, the graph bounces slightly above and slightly
+below 1.4, likely averaging somewhere around this point. 
+The graph starts out with very rapid but small changes in maximum displacement, 
+but as the period approaches 12, the changes become both more gradual and larger.
+The third peak occurs at double the period of the first peak, suggesting that
+the underlying maths produces regular peaks in maximum displacement, although
+a larger range of T would be required to check if this is the case.
