@@ -20,45 +20,47 @@ import math
 
 # print (Top / Bottom)
 
-x = 0.05
+# x = 0.05
 
-a = ufloat (13.96, x)
-b = ufloat (14.04, x)
-c = ufloat (13.83, x)
-d = ufloat (13.99, x)
-e = ufloat (14.23, x)
-f = ufloat (13.90, x)
-g = ufloat (14.39, x)
-h = ufloat (14.09, x)
-i = ufloat (13.95, x)
+# a = ufloat (13.96, x)
+# b = ufloat (14.04, x)
+# c = ufloat (13.83, x)
+# d = ufloat (13.99, x)
+# e = ufloat (14.23, x)
+# f = ufloat (13.90, x)
+# g = ufloat (14.39, x)
+# h = ufloat (14.09, x)
+# i = ufloat (13.95, x)
 
-total = a + b + c + 2 * d + e + f + g + h + i
-avg1 = total / 10
+# total = a + b + c + 2 * d + e + f + g + h + i
+# avg1 = total / 10
 
-j = ufloat (14.22, x)
-k = ufloat (14.11, x)
-l = ufloat (14.16, x)
-m = ufloat (14.03, x)
-n = ufloat (14.03, x)
-o = ufloat (14.46, x)
-p = ufloat (14.48, x)
-q = ufloat (14.10, x)
-r = ufloat (14.04, x)
-s = ufloat (14.40, x)
+# j = ufloat (14.22, x)
+# k = ufloat (14.11, x)
+# l = ufloat (14.16, x)
+# m = ufloat (14.03, x)
+# n = ufloat (14.03, x)
+# o = ufloat (14.46, x)
+# p = ufloat (14.48, x)
+# q = ufloat (14.10, x)
+# r = ufloat (14.04, x)
+# s = ufloat (14.40, x)
 
-newtotal = j + k + l + m + n + o + p + q + r + s
-avg2 = newtotal / 10
+# newtotal = j + k + l + m + n + o + p + q + r + s
+# avg2 = newtotal / 10
 
-avgDif = avg2 - avg1
-uncertainty = 0.07184 #from error propagation
-Zscore = avgDif / uncertainty
+# avgDif = avg2 - avg1
+# uncertainty = 0.07184 #from error propagation
+# Zscore = avgDif / uncertainty
 
-print ("Average 1930s = ", avg1)
-print ("Average 2000s = ",avg2)
-print ("Difference of averages = ", avgDif)
-print ("Scatter in individuals of 1930s = ", (g - c) / (math.sqrt (10)))
-print ("Scatter in individuals of 2000s = ", (p - m) / (math.sqrt (10)))
-print ("Scatter in mean of 1930s = ", (g - c) / 10)
-print ("Scatter in mean of 2000s = ", (p - m) / 10)
-print ("Z-score = ", Zscore)
+# print ("Average 1930s = ", avg1)
+# print ("Average 2000s = ",avg2)
+# print ("Difference of averages = ", avgDif)
+# print ("Scatter in individuals of 1930s = ", (g - c) / (math.sqrt (10)))
+# print ("Scatter in individuals of 2000s = ", (p - m) / (math.sqrt (10)))
+# print ("Scatter in mean of 1930s = ", (g - c) / 10)
+# print ("Scatter in mean of 2000s = ", (p - m) / 10)
+# print ("Z-score = ", Zscore)
+
+
 
